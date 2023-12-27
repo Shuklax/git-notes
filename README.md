@@ -28,3 +28,6 @@ Pushing code to github
 `git push`
 
 upstream mean from local to remote and vice versa
+
+To display the commit history of a Git repository. It provides a chronological list of commits, showing details about each change made to the project's files over time.
+`git log`
