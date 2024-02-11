@@ -1,9 +1,9 @@
-sing hiphen( - ) in fron of abbreviated flags and (--) in front of full forms of flags
+single hiphen( - ) in fron of abbreviated flags and (--) in front of full forms of flags
 
-Check for git version
+Check for the git version
 `git --version`
 
-How to initalise a git repo, how to enable git
+How to initialize a git repo, how to enable git
 `git init`
 
 How to make a new branch
@@ -12,10 +12,10 @@ How to make a new branch
 How to view the branches
 `git branch`
 
-To send the untrack files to the staging area 
+To send the untracked files to the staging area 
 `git add .`
 
-How to switch to different branch
+How to switch to a different branch
 `git switch <branch-name>`
 
 How to create a new branch and switch at the same time
@@ -26,13 +26,14 @@ Tracking/knowing which files to put
 for tracking everything
 `git add .`
 
-Putting commit/finalising version of code
+Putting commit/finalizing version of code
 `git commit -m <commit-message>`
+Run `git commit` without the `-m` option. This will open vim
 
-Pushing code to github
+Pushing code to GitHub
 `git push`
 
-upstream mean from local to remote and vice versa
+upstream means from local to remote and vice versa
 
 To display the commit history of a Git repository. It provides a chronological list of commits, showing details about each change made to the project's files over time.
 `git log` and to see the content/files of each commit use `git log --stat` or `git log --numstat`
@@ -47,6 +48,6 @@ To merge my local branch onto the remote xyz branch `git rebase origin/xyz` but 
 
 To create a branch on my origin main branch from my local machine, the new branch name as fuu --> `git push origin main:fuu`; To delete it `git push -d origin fuu`
 
-Only in push we write the origin and branch name seperately otherwise it is always written as origin/xyz where xyz is the branch name.
+Only in push we write the origin and branch name separately otherwise it is always written as origin/xyz where xyz is the branch name.
 So, if I wanna push my main/head branch from local to main/xyz branch in remote then I write `git push origin main:main` or `git push origin main:head` or `git push origin xyz:main`
 
