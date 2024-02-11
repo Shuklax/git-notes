@@ -12,6 +12,9 @@ How to make a new branch
 How to view the branches
 `git branch`
 
+To send the untrack files to the staging area 
+`git add .`
+
 How to switch to different branch
 `git switch <branch-name>`
 
