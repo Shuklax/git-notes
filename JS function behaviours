@@ -1,0 +1,11 @@
+<button onClick={handleItems}>Click Me</button> --> function reference, called when the button is clicked. Calls a function with no argument
+
+<button onClick={handleItems()}>Click Me</button> --> function call, called when the element is rendered. Calls a function with no argument
+
+<button onClick={handleItems(Items)}>Click Me</button> --> function call, called when the element is rendered. Calls a function with an argument
+
+<button onClick={()=>handleItems}>Click Me</button> --> Will not call the function at all, as it returns the function reference without execution.
+
+<button onClick={()=>handleItems()}>Click Me</button> --> function call through a reference, called when the button is clicked. Calls a function with no argument. This is also unnecessary
+
+<button onClick={()=>handleItems(Items)}>Click Me</button> --> recommended way to call a function. Calls when the button is clicked. Calls a function with an argument
